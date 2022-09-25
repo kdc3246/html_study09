@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .img-box {
+            width: 550px;
+            height: 350px;
+            border: 4px dashed gray;
+
+            background-color: orange;
+            background-image: url('../../image/sky.jpg');
+            background-size: 150px 150px;
+            background-repeat: no-repeat;
+            /* 사진이 좌측에있는거 말고 중앙에 있고 싶을때 사용(px픽셀 단위로도 조정가능, 비율도 가능 ) */
+            background-position: center;
+
+            /* cover는 기억하면 아주 좋다. contain은 빈 공간이 좀 보일 수 있어 좋지않다.*/
+            background-size: cover;
+
+            /* 안에 속성의 순서는 상관없지만 단위를 써주는것은 주의해야한다. / 로 인해서 구분해준다 앞은 위치 / 뒤에는 사이즈(크기) */
+            /* background: orange  no-repeat url('../../image/sky.jpg') 150px 150px / 150px 150px; */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="img-box"></div>
+
+</body>
+</html>

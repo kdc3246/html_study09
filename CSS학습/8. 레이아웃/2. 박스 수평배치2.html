@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container {
+            width: 400px;
+        }
+
+        .box {
+            width: 23%;
+            height: 150px;
+            background: orange;
+            /* margin: 10px; */
+            margin-right: 2%;
+
+            margin-top: 10px;
+            font-size: 50px;
+            font-weight: 700;
+
+            /* 텍스트 중앙 정렬 (x, y 축) */
+            /* x축 정렬 */
+            text-align: center;
+            /* y축 정렬: 줄높이를 박스 세로높이와 동일하게 설정 */
+            line-height: 150px;
+
+            /* 박스 수평배치 */
+            float: left;
+        }
+
+        /* 수평배치 해제 */
+        /* 3개마다 해제 (3n+1), x개마다 해제 (xn+1) */
+        /* .box:nth-child(3n+1) {
+            clear: both;
+        } */
+    </style>
+</head>
+<body>
+    
+    <!-- box 위치에 마우스 커서 가져다두고 Alt + Shift + 아래방향키하면 복사됨. -->
+    <!-- .container>.box{$}*9 -->
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
+        <div class="box">16</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            font-size: 40px;
+        }
+
+        .c1 {
+            /* #33ddaa */
+            color: #3da;
+        }
+        .c2 {
+            color: rgb(58, 200, 193);
+        }
+
+        /* 그라데이션 작업할때 쓴다. 마지막 코드에는 투명도를 지정해준다. */
+        .c3 {
+            color: rgba(58, 200, 193, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+    <!--.c : 클래스 앞에 .을쓰면 div생성
+         $ : 숫자 ex) 1, 2, 3, 4, 5 생성
+        {} 중가로 : 텍스트 생성
+        *3 : 	<div class="c1">hello1</div>
+	            <div class="c2">hello2</div>
+	            <div class="c3">hello3</div> 생성이된다. -->
+
+    <!-- .c${hello$}*3 -->
+    <div class="c1">hello1</div>
+    <div class="c2">hello2</div>
+    <div class="c3">hello3</div>
+</body>
+
+</html>
